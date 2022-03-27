@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navegador */
+
+.navigator nav{
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color: #56213f;
+}
+
+.logo a img {
+    width: 200px;
+}
+
+.navigator__right {
+    width: 100%;
+    display: flex;
+}
+
+.navigator__right ul {
+    display: flex;
+    list-style: none;
+    margin-left: 400px;
+    flex-direction: row;
+}
+
+.nav__right-link {
+    margin-top: 23px;
+    padding-left: 30px;
+}
+
+.nav__right-link a{
+    text-decoration: none;
+    color: #bea026;
+}
+
+.nav__right-link a:hover {
+    color: aliceblue;
+}
